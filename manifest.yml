@@ -1,0 +1,12 @@
+---
+applications:
+- name: Roboto
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false
+    CONVERSATION_USERNAME: '66367972-e6d5-4029-9b36-e483e1731d24'
+    CONVERSATION_PASSWORD: 'ANKbzvm8sDOs'
+    WORKSPACE_ID: id_workspace
